@@ -7,16 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp1Component implements OnInit {
 
-  public name = "Angular"; // first line
   public form = ""; // variable for the taking the input from the user
-  public greet = ""; // variable for binding the property. 
+  public temp = ""; // variable for binding the property. 
   constructor() { }
 
   ngOnInit(): void {
   }
 
   onClick() {
-    this.greet = this.form;
+    this.temp = this.form;
   }
 
 }
