@@ -1,0 +1,9 @@
+<div style = "text-align: center;">
+    <h2>
+        Welcome to {{name}}
+    </h2>
+</div>
+
+<input [(ngModel)]="form" type="text"> <!--Passing the form variable -->
+<button (click)="onClick()">SAVE</button> <!-- Creating a onclick method for the display of text -->
+{{greet}} <!--Interpolation -->
