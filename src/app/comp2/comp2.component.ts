@@ -9,6 +9,7 @@ export class Comp2Component implements OnInit {
 
   public number = "";
   public temp = "";
+
   constructor() { }
 
   ngOnInit(): void {

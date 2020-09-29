@@ -1,3 +1,3 @@
 <input [(ngModel)]="number" type="number"> <!--Passing the form variable -->
-<button (click)="onClick()">SAVE</button> <!-- Creating a onclick method for the display of number -->
+<button type = "button" (click)="onClick()" [disabled] = "temp">SAVE</button> <!-- Creating a onclick method for the display of number -->
 {{temp}} <!--Interpolation -->

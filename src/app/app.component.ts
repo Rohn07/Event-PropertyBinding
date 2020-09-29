@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EventPropertyBinding';
-  public name = "Angular";
+  public name = "Event and Property Binding";
 }
