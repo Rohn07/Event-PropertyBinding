@@ -1,3 +1,13 @@
-<input [(ngModel)]="form" type="text"> <!--Passing the form variable -->
-<button (click)="onClick()">SAVE</button> <!-- Creating a onclick method for the display of text -->
-{{temp}} <!--Interpolation -->
+<div class = "container">
+    <header>
+        <h2>Enter any String</h2>
+    </header>
+
+    <main>
+        <input [(ngModel)]="form" type="text"> <!--Passing the form variable --> <br>
+        <br>
+        <button type = "button" (click)="onClick()">SAVE</button> <!-- Creating a onclick method for the display of text --> <br>
+        <br>
+        {{temp}} <!--Interpolation -->
+    </main>
+</div>

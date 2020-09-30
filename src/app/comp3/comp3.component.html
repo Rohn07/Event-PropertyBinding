@@ -1,3 +1,13 @@
-<input type="text" [(ngModel)]="text" name="text" [disabled] = "input"> 
-<button type= "button" (click)="disableMethod()">SAVE</button> 
-{{text}}
+<div class="container">
+    <header>
+        <h2>Enter any String</h2>
+    </header>
+
+    <main>
+        <input type="text" [(ngModel)]="text" name="text" [disabled] = "input"> <br>
+        <br>
+        <button type= "button" (click)="disableMethod()">SAVE</button> <br>
+        <br> 
+        {{text}}
+    </main>
+</div>
