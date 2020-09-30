@@ -1,5 +1,7 @@
 # EventPropertyBinding
 
+This project is deployed at https://propertybinding.netlify.app
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
 ## Development server
